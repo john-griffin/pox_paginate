@@ -64,8 +64,8 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<activesupport>, ["~> 3.0.0"])
-      s.add_runtime_dependency(%q<activeresource>, ["~> 3.0.0"])
+      s.add_runtime_dependency(%q<activesupport>, [">= 3.0.0"])
+      s.add_runtime_dependency(%q<activeresource>, [">= 3.0.0"])
       s.add_runtime_dependency(%q<will_paginate>, ["~> 3.0.pre2"])
       s.add_development_dependency(%q<rspec>, ["~> 2.0.0.beta.20"])
       s.add_development_dependency(%q<activerecord>, ["~> 3.0.0"])
